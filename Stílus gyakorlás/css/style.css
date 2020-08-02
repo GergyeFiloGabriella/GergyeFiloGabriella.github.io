@@ -1,0 +1,35 @@
+@font-face{
+    font-family: "Arial"; 
+    src: url("fonts/Arial/Arial-Regular.ttf");
+    font-weight: 500;  
+}
+
+@font-face{
+    font-family: "Arial-light";
+    src: url("fonts/Arial/Arial-Extra-light.ttf");
+    font-weight: 200
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@100&display=swap');
+
+html{
+    text-transform: capitalize;
+}
+
+h1 {
+    color:palevioletred;
+ font-family: 'Roboto', sans-serif; 
+
+p {
+  color:green;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    text-transform: lowercase; 
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
